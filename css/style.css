@@ -228,6 +228,8 @@ header nav ul.navbar li a:hover {
 
 .about .row .image {
     flex: 1 2 40rem;
+    max-width: 350px;
+    margin-left: 10px;
     box-shadow: 0 0 10px var(--shadow-color);
     -webkit-box-shadow: 0 0 10px var(--shadow-color);
     -moz-box-box-shadow: 0 0 10px var(--shadow-color);
@@ -329,7 +331,6 @@ header nav ul.navbar li a:hover {
 
 .parallax {
     background: url(../images/parallax.jpg) no-repeat;
-    min-height: 100vh;
     background-attachment: fixed;
     background-size: cover !important;
     background-position: center !important;
@@ -344,7 +345,7 @@ header nav ul.navbar li a:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     z-index: -1;
 }
 

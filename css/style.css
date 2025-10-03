@@ -169,10 +169,11 @@ header nav ul.navbar li a:hover {
 }
 
 .home .slide {
-    background-image: url("../images/slider2-.png");
-    min-height: 100vh;
+
+    background-image: url("../images/slider2-.jpg");
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,6 +186,7 @@ header nav ul.navbar li a:hover {
     background-color: #000000b5;
     height: 100%;
 }
+
 
 .home .slide .content {
     position: relative;
@@ -202,6 +204,10 @@ header nav ul.navbar li a:hover {
 }
 
 @media (max-width: 992px) {
+    .home .slide {
+        background-image: url("../images/home-sm.jpg");
+    }
+
     .home .slide .content h3 {
         font-size: 4rem;
         margin-bottom: 100px;
@@ -221,7 +227,7 @@ header nav ul.navbar li a:hover {
 }
 
 .about .row .image {
-    flex: 1 1 40rem;
+    flex: 1 2 40rem;
     box-shadow: 0 0 10px var(--shadow-color);
     -webkit-box-shadow: 0 0 10px var(--shadow-color);
     -moz-box-box-shadow: 0 0 10px var(--shadow-color);
